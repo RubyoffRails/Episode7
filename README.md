@@ -1,4 +1,4 @@
-Episode6 - Salesman Traveler
+Episode 7 - Salesman Traveler
 =====================
 
 An o(n!) algorithm to travel the globe as fast as possible
