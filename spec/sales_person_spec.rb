@@ -27,5 +27,4 @@ describe SalesPerson do
 		CalculatesRoute.stub(:calculate) { route_stub }
 		subject.route.should eq(route_stub)
 	end
-	xit "should log total miles"
 end
