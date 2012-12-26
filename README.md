@@ -21,13 +21,11 @@ Eagle Level
 1. Implement the "salesperson should log the total miles"
 2. Output the total traveling time (assume 55 mph)
 
-Extra Extra: (This is really out there): Implement the Djikstra algorithm (http://blog.linkedin.com/2008/09/19/implementing-di/) to effmore effective route the network
-
 Show Links
 ----------
 
-http://www.quora.com/Computational-Complexity-Theory/Is-the-traveling-salesman-problem-solvable 
-http://www.rubygeocoder.com/
+* http://www.quora.com/Computational-Complexity-Theory/Is-the-traveling-salesman-problem-solvable 
+* http://www.rubygeocoder.com/
 
 Sample Nokogiri Code
 --------------------
@@ -37,7 +35,7 @@ require 'nokogiri'
 require 'open-uri'
 doc = Nokogiri::HTML(open('http://www.texas.gov/en/discover/Pages/topic.aspx?topicid=/government/localgov'))
 doc.css(".TGOV_SCRD_Header a").map do |node|
-  node.content
+  puts node.content
 end
 ```
 
