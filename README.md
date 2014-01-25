@@ -34,7 +34,7 @@ Sample Nokogiri Code
 require 'nokogiri'
 require 'open-uri'
 doc = Nokogiri::HTML(open('http://www.texas.gov/en/discover/Pages/topic.aspx?topicid=/government/localgov'))
-doc.css(".TGOV_SCRD_Header a").map do |node|
+doc.css(".topic-subcategory-link a").map do |node|
   puts node.content
 end
 ```
